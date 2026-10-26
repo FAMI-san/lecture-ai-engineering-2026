@@ -30,6 +30,8 @@ uv run pytest -q
 uv run python -m app.ask "LoRAとは何ですか？"
 ```
 
+質問への回答後、空行を入力するまで同じ会話履歴を使って追加の質問ができます。
+
 詳しい手順は [lectures/01/problem.md](lectures/01/problem.md) を見てください。
 
 ## 構成
